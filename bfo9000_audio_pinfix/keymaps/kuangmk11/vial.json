@@ -3,7 +3,23 @@
     "vendorId": "0xCB10",
     "productId": "0x1169",
     "lighting": "qmk_rgblight",
-    "midi": "advanced",
+    "vial": {
+        "midi": "advanced"
+    },
+    "customKeycodes": [
+        {"name": "QK_AUTOCORRECT_ON",
+         "title": "AutoCorrect On",
+         "shortName": "AC_ON"
+        },
+        {"name": "QK_AUTOCORRECT_OFF",
+         "title": "AutoCorrect OFF",
+         "shortname": "AC_OFF"
+        },
+        {"name": "QK_AUTOCORRECT_TOGGLE",
+         "title": "AutoCorrect Toggle",
+         "shortName": "AC_TOGG"
+        }
+    ],
     "matrix": {
         "rows": 12,
         "cols": 9

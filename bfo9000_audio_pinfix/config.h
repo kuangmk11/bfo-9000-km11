@@ -53,11 +53,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Audio */
 #define AUDIO_PIN GP8
-#define AUDIO_PWM_DRIVER PWMD0
+#define AUDIO_PWM_DRIVER PWMD4
 #define AUDIO_PWM_CHANNEL RP2040_PWM_CHANNEL_A
 #define AUDIO_INIT_DELAY
 #define AUDIO_CLICKY
-#define SENDSTRING_BELL
 
 #ifdef AUDIO_ENABLE
     #define STARTUP_SONG SONG(PREONIC_SOUND)

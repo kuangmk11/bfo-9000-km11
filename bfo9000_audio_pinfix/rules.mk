@@ -1,10 +1,11 @@
 # Build Options
 #   change yes to no to disable
 #
-BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
-BOOTMAGIC_ENABLE = yes       # Enable Bootmagic Lite
 AUDIO_DRIVER = pwm_hardware
 AUDIO_ENABLE = yes           # Audio output
+AUTOCORRECT_ENABLE = no
+BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
+BOOTMAGIC_ENABLE = yes       # Enable Bootmagic Lite
 COMMAND_ENABLE = yes        # Commands for debug and configuration
 CONSOLE_ENABLE = yes         # Console for debug
 EXTRAKEY_ENABLE = yes       # Audio control and System control
